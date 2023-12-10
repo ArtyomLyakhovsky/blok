@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+.sguare {
+  border: 1px solid black;
+  width: 20%;
+  height: 200px;
+  position: relative;
+  background-color: brown;
+}
+.sguare1 {
+  position: absolute;
+  left:0;
+  top: 0;
+  background-color: rgb(231, 39, 215);
+}
+
+.sguare2 {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: blue;
+}
+
+
+.sguare3 {
+  position: absolute;
+  left: 0;
+  top: 723px;
+  background-color: rgb(119, 247, 0);
+}
+
+.sguare1 {
+  position: absolute;
+  left:1536px;
+  top: 0;
+  background-color: rgb(231, 39, 215);
+}
+
+.sguare5 {
+  position: absolute;
+  left:1536px;
+  top: 723px;
+  background-color: rgb(8, 252, 239);
+}
